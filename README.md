@@ -81,19 +81,6 @@ https://gateway.diadi.cn/api/parse?app_secret=5HkBIAwYnpzfzbnjsdtGmfAryDWXPBiKk&
 }
 ```
 
-| 参数名称   | 类型   | 描述                                 |
-| ---------- | ------ | ------------------------------------ |
-| `type`     | string | 类型                                 |
-| `video`    | array  | 视频列表                             |
-| `images`   | array  | 图集列表                             |
-| `audio`    | array  | 音频列表                             |
-| `cover`    | string | 封面图 URL                           |
-| `text`     | string | 文案                                 |
-| `platform` | int    | 平台标识                             |
-| `author`   | object | 作者信息，仅 `platform=1` 时有效     |
-| `other`    | object | 其他附加信息，仅 `platform=1` 时有效 |
-| `id`       | string | 内容唯一标识，仅 `platform=1` 时有效 |
-
 失败返回示例：
 
 ```json
